@@ -26,12 +26,13 @@ The build is not code-signed yet, so Windows SmartScreen may warn: click **More 
 ## How to use it
 
 1. Start the overlay. It runs in the system tray (green diamond icon) and stays hidden.
-2. In the game, **hover over a Rare item** and press **`Ctrl+Shift+D`**.
+2. In the game, **hover over a Rare item** and press **`Alt+T`**.
    The overlay copies the item for you and appears next to the game.
 The overlay has three columns: **currencies and Omens** on the left, the **modifier list** in the
 middle, and your **item** on the right, as in the game, with its **free prefix and suffix slots**.
 
-3. Choose a **currency** (Bone) on the left. Only the Bones that can be used on this item are listed.
+3. A **currency** (Bone) is already chosen on the left (the last one you used for this item type), and
+   the Prefix/Suffix filter shows the side your item has room on. Only usable Bones are listed.
 4. Optionally choose **Omens**. Only Omens usable with your Bone are listed; Omens that cannot be
    combined with another chosen Omen are greyed out (hover one to see why).
 5. Read the list of **possible modifiers**:
@@ -41,8 +42,9 @@ middle, and your **item** on the right, as in the game, with its **free prefix a
    - Search box, and "More filters" for the required-level range.
    - The **Blocked** tab lists the modifiers that cannot appear, each with its reason.
    - **Click a modifier** to see it on your item on the right (marked "Desecrated · preview").
-6. Hover **another item** and press `Ctrl+Shift+D` again: the overlay switches to it, also right
-   after you clicked something in the overlay.
+6. Hover **another item** and press `Alt+T` again: the overlay switches to it, also right
+   after you clicked something in the overlay. Clicking in the overlay never takes focus away from the
+   game (only typing in the search box does).
    Press it on the **same item** again, or press `Esc`, to hide the overlay.
 
 Other controls: **↻** reads the clipboard again; **`Ctrl+V`** in the overlay reads an item you copied
@@ -110,12 +112,13 @@ Program nie ma jeszcze podpisu cyfrowego, więc Windows SmartScreen może ostrze
 ## Jak używać
 
 1. Uruchom nakładkę. Działa w zasobniku systemowym (ikona zielonego rombu) i jest ukryta.
-2. W grze **najedź kursorem na przedmiot Rare** i naciśnij **`Ctrl+Shift+D`**.
+2. W grze **najedź kursorem na przedmiot Rare** i naciśnij **`Alt+T`**.
    Nakładka sama skopiuje przedmiot i pojawi się obok gry.
 Nakładka ma trzy kolumny: **waluty i Omeny** po lewej, **listę modyfikatorów** na środku i Twój
 **przedmiot** po prawej, jak w grze, z liczbą **wolnych miejsc na prefiksy i sufiksy**.
 
-3. Wybierz **walutę** (Bone) po lewej. Widoczne są tylko te, których można użyć na tym przedmiocie.
+3. **Waluta** (Bone) po lewej jest już wybrana (ostatnio użyta dla tego typu przedmiotu), a filtr
+   Prefiks/Sufiks pokazuje stronę, na której przedmiot ma wolne miejsce. Widać tylko pasujące Bones.
 4. Opcjonalnie wybierz **Omeny**. Widoczne są tylko Omeny pasujące do Twojego Bone; te, których nie
    da się połączyć z innym wybranym Omenem, są wyszarzone (po najechaniu widać powód).
 5. Przeczytaj listę **możliwych modyfikatorów**:
@@ -125,8 +128,9 @@ Nakładka ma trzy kolumny: **waluty i Omeny** po lewej, **listę modyfikatorów*
    - wyszukiwarka oraz „Więcej filtrów” z zakresem wymaganego poziomu,
    - zakładka **Zablokowane** pokazuje modyfikatory, które nie mogą wypaść, każdy z powodem,
    - **kliknij modyfikator**, żeby zobaczyć go na przedmiocie po prawej („Desecrated · podgląd”).
-6. Najedź na **inny przedmiot** i znowu naciśnij `Ctrl+Shift+D`: nakładka przełączy się na niego,
-   także zaraz po kliknięciu czegoś w nakładce.
+6. Najedź na **inny przedmiot** i znowu naciśnij `Alt+T`: nakładka przełączy się na niego,
+   także zaraz po kliknięciu czegoś w nakładce. Klikanie w nakładce nie zabiera grze fokusu (robi to
+   tylko pisanie w wyszukiwarce).
    Ten sam skrót na **tym samym przedmiocie** albo `Esc` chowa nakładkę.
 
 Inne: **↻** ponownie odczytuje schowek; **`Ctrl+V`** w nakładce wczytuje przedmiot skopiowany
