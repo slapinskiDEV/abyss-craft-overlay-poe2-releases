@@ -28,16 +28,21 @@ The build is not code-signed yet, so Windows SmartScreen may warn: click **More 
 1. Start the overlay. It runs in the system tray (green diamond icon) and stays hidden.
 2. In the game, **hover over a Rare item** and press **`Ctrl+Shift+D`**.
    The overlay copies the item for you and appears next to the game.
-3. Choose a **currency** (Bone). Only the Bones that can be used on this item type are listed.
-4. Optionally choose **Omens**. Omens that cannot be combined with your choice are greyed out; hover
-   one to see why.
+The overlay has three columns: **currencies and Omens** on the left, the **modifier list** in the
+middle, and your **item** on the right, as in the game, with its **free prefix and suffix slots**.
+
+3. Choose a **currency** (Bone) on the left. Only the Bones that can be used on this item are listed.
+4. Optionally choose **Omens**. Only Omens usable with your Bone are listed; Omens that cannot be
+   combined with another chosen Omen are greyed out (hover one to see why).
 5. Read the list of **possible modifiers**:
    - **Prefix / Suffix** filters limit the list to one side.
    - **Regular** = modifiers the base can also roll through ordinary crafting.
      **Desecration-only** = modifiers that only Desecration can give.
    - Search box, and "More filters" for the required-level range.
    - The **Blocked** tab lists the modifiers that cannot appear, each with its reason.
-6. Hover **another item** and press `Ctrl+Shift+D` again: the overlay switches to it.
+   - **Click a modifier** to see it on your item on the right (marked "Desecrated · preview").
+6. Hover **another item** and press `Ctrl+Shift+D` again: the overlay switches to it, also right
+   after you clicked something in the overlay.
    Press it on the **same item** again, or press `Esc`, to hide the overlay.
 
 Other controls: **↻** reads the clipboard again; **`Ctrl+V`** in the overlay reads an item you copied
@@ -107,16 +112,21 @@ Program nie ma jeszcze podpisu cyfrowego, więc Windows SmartScreen może ostrze
 1. Uruchom nakładkę. Działa w zasobniku systemowym (ikona zielonego rombu) i jest ukryta.
 2. W grze **najedź kursorem na przedmiot Rare** i naciśnij **`Ctrl+Shift+D`**.
    Nakładka sama skopiuje przedmiot i pojawi się obok gry.
-3. Wybierz **walutę** (Bone). Widoczne są tylko te, których można użyć na tym typie przedmiotu.
-4. Opcjonalnie wybierz **Omeny**. Omeny, których nie da się połączyć z Twoim wyborem, są wyszarzone;
-   po najechaniu widać powód.
+Nakładka ma trzy kolumny: **waluty i Omeny** po lewej, **listę modyfikatorów** na środku i Twój
+**przedmiot** po prawej, jak w grze, z liczbą **wolnych miejsc na prefiksy i sufiksy**.
+
+3. Wybierz **walutę** (Bone) po lewej. Widoczne są tylko te, których można użyć na tym przedmiocie.
+4. Opcjonalnie wybierz **Omeny**. Widoczne są tylko Omeny pasujące do Twojego Bone; te, których nie
+   da się połączyć z innym wybranym Omenem, są wyszarzone (po najechaniu widać powód).
 5. Przeczytaj listę **możliwych modyfikatorów**:
    - filtry **Prefiks / Sufiks** zawężają listę do jednej strony,
    - **Zwykłe** = modyfikatory, które baza może dostać także zwykłym craftingiem;
      **Tylko z Desecration** = modyfikatory, które daje wyłącznie Desecration,
    - wyszukiwarka oraz „Więcej filtrów” z zakresem wymaganego poziomu,
-   - zakładka **Zablokowane** pokazuje modyfikatory, które nie mogą wypaść, każdy z powodem.
-6. Najedź na **inny przedmiot** i znowu naciśnij `Ctrl+Shift+D`: nakładka przełączy się na niego.
+   - zakładka **Zablokowane** pokazuje modyfikatory, które nie mogą wypaść, każdy z powodem,
+   - **kliknij modyfikator**, żeby zobaczyć go na przedmiocie po prawej („Desecrated · podgląd”).
+6. Najedź na **inny przedmiot** i znowu naciśnij `Ctrl+Shift+D`: nakładka przełączy się na niego,
+   także zaraz po kliknięciu czegoś w nakładce.
    Ten sam skrót na **tym samym przedmiocie** albo `Esc` chowa nakładkę.
 
 Inne: **↻** ponownie odczytuje schowek; **`Ctrl+V`** w nakładce wczytuje przedmiot skopiowany
