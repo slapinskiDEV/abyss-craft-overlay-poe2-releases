@@ -78,6 +78,11 @@ yourself; **⚙** opens the settings (UI language English/Polish, hotkey, auto-c
   items or the game is sent, and a download starts only when you click "Update". The check can be
   turned off in the settings.
 
+## Source code and license
+
+The overlay is open source (MIT license):
+[github.com/slapinskiDEV/abyss-craft-overlay-poe2](https://github.com/slapinskiDEV/abyss-craft-overlay-poe2).
+
 ## Feedback
 
 Found a wrong modifier or a bug? Open an [issue](https://github.com/slapinskiDEV/abyss-craft-overlay-poe2-releases/issues)
@@ -164,6 +169,11 @@ kopiowanie, aktualizacje). Nazwy z gry (przedmioty, waluty, modyfikatory) zostaj
 - Jedyne połączenie z internetem to **sprawdzenie w tym repozytorium, czy jest nowa wersja**. Nic o
   Tobie, Twoich przedmiotach ani grze nie jest wysyłane, a pobieranie zaczyna się dopiero po
   kliknięciu „Aktualizuj”. Sprawdzanie można wyłączyć w ustawieniach.
+
+## Kod źródłowy i licencja
+
+Nakładka jest open source (licencja MIT):
+[github.com/slapinskiDEV/abyss-craft-overlay-poe2](https://github.com/slapinskiDEV/abyss-craft-overlay-poe2).
 
 ## Zgłoszenia
 
